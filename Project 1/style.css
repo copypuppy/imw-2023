@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.text {
+    width: 647px; 
+    height: 87px; 
+    left: 500px; 
+    top: 800px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Arial, sans-serif;
+    font-weight: 700; 
+    
+}
+
+.frame {
+    width: 1512px; 
+    height: 9812px; 
+    position: relative; 
+    background: white;
+}
+
+.Intro {
+    width: 1512px;
+    height: 982px; 
+    left: -90px; 
+    top: -155px; 
+    position: absolute;
+}
+.intro-sun {
+    width: 317px;
+    height: 317px;
+    left: 686px;
+    top: 350px;
+    position: absolute;
+    background: #FFC700;
+    border-radius: 50%;
+}
+.intro-background{
+    width: 1512px;
+    height: 982px;
+    left: 88px; 
+    top: 152px;
+    position: absolute; 
+    background: linear-gradient(180deg, #00A3FF 0%, #C3E2FF 70%);
+}
+
+.Walk{
+    width: 1512px; 
+    height: 982px; 
+    left: 0px; 
+    top: 979px; 
+    position: absolute;
+}
+.cloud {
+
+}

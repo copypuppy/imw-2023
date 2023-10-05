@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5d5ee;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    width: 700px;
+    height: 103px;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between; /* 해드와 네브가 떨어져있게 해줌 */
+    align-items: center;    /* 위아래 간격을 준상태로 글씨가 있게 해줌 */
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style-type: none; /* no dots on list */
+}
+
+ul li {
+    display: inline; /* make nav list set in horizontal */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    width: 700px;
+    background: white;
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 500;
+    
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+footer {
+    width: 700px;
+    height: 129px;
+    background: white;
+    border: 1px solid black;
+    
+    
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.site-title { 
+    font-size: 38px;
+}
+
+.nave-links{
+    font-size: 18px;
+    font-weight: 500; /* semi bold*/
+}
+
+.info-section-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info-section {
+    height: 319px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* div로 묶으면서 제목과 글은 하나로 만들어 밑에 작은 글씨와 떨어뜨려놓음 */
+    /* padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;        bottom code is short version of this setting */
+    padding: 30px 20px; 
+}
+.info-cta {
+   font-size: 12px;
+   text-decoration: underline;
+}
+
+.page {
+    width: 700px;
+    margin: auto;
+}
+
+.hero-section {
+    height: 347px;
+    border: 1px solid black;
+    padding: 45px 134px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.hero-section-bg {
+    height: 113px;
+    border: 1px solid black;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 20px;
+    padding-right: 153px;
+}
+
+.about {
+    font-size: 10px;
+    padding-left: 21px;
+    padding-right: 544px;
+
+}
+
+.social-link {
+    font-size: 14px;
+    padding-left: 277px;
+    padding-right: 175px;
+}
+
+.footer-nav {
+    font-size: 12px;
+    padding-left: 646px;
+    padding-right: 19px;
+    
+}
