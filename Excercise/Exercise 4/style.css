@@ -58,7 +58,11 @@ footer {
     height: 129px;
     background: white;
     border: 1px solid black;
-    
+    display: flex;
+    padding-left: 20px;
+    padding-right: 19px;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
@@ -121,20 +125,21 @@ h4 {
 
 .about {
     font-size: 10px;
-    padding-left: 21px;
-    padding-right: 544px;
+    width: 200px;
+    
 
 }
 
 .social-link {
     font-size: 14px;
-    padding-left: 277px;
-    padding-right: 175px;
+    word-spacing: 40px;
+    
 }
 
 .footer-nav {
     font-size: 12px;
-    padding-left: 646px;
-    padding-right: 19px;
+    width: 30px;
+    line-height: 3;
+    
     
 }
