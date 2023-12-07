@@ -1,0 +1,93 @@
+
+
+/*  Layout  */
+
+html, body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    background: -webkit-radial-gradient(center, ellipse cover, #6c6c6c 0%, black 100%);
+
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+
+    font-family: sans-serif;
+}
+
+
+/*  Cover   */
+
+
+#coverflow {
+    height: 100%;
+    width: 100%;
+
+    -webkit-perspective: 600px;
+    perspective: 600px; /* Standard property for perspective */
+}
+
+
+#coverflow section {
+    display: position;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    
+    width: 300px;
+    height: 300px;
+    
+    margin-left: -90px;
+    margin-top: -90px;
+    
+    background-color: white;
+    background-size: 100%;
+    
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+   
+    -webkit-transition: all 300ms ease-in;
+     -moz-transition: all 300ms ease-in;
+        -ms-transition: all 300ms ease-in;
+         -o-transition: all 300ms ease-in;
+            transition: all 300ms ease-in;
+
+    -webkit-box-reflect: below 0
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.3, transparent), to(white)); 
+}
+
+
+
+/*      Controls    */
+
+#controls {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    z-index: 1;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+}
+
+#controls a  {
+    color: white; 
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+#controls a:hover  {
+    color: 66FFFF;
+}

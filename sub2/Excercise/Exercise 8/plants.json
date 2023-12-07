@@ -1,0 +1,21 @@
+{
+    "plants" : [
+        {
+            "description":"Easy to take care of houseplant.",
+            "photo": "rubberplant.jpg",
+            "name":"Rubber Plant"
+        },
+    
+        {
+            "description":"ZZ plant is easy to take care of houseplant.",
+            "photo": "zzplant.jpg",
+            "name":"ZZ Plant"
+        },
+    
+        {
+            "description":"Momstera is easy to take care of houseplant.",
+            "photo": "momstera.jpg",
+            "name":"Momstera"
+        }
+    ]
+}

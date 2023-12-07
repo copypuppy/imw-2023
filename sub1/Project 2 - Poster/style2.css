@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans');     
+*, *:before, *:after {
+  -moz-box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px; 
+  background: #171717;
+  color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  margin: 1rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 20px;
+  margin: 1rem 0;
+  line-height: 1.5;
+  text-align: center;
+  color: #a0a0a0;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  align-items: flex-start;
+}
+
+.school {
+  max-width: 600px;
+  margin: 1rem auto 1.5rem;
+  display: block;
+  margin-top: 10px;
+  white-space: pre-line;
+}
+
+.school::after {
+  content: "\A";
+  white-space: pre;
+}
+
+.lecture a {
+  color: #5b7abb;
+  display: block;
+}
+
+.lecture h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #56ceba;
+  font-size: 50px; /* Adjusted font size */
+  margin: 1rem 0 0.6rem;
+}
+
+.lecture h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 25px; /* Adjusted font size */
+  margin: 1rem 0 0.6rem;
+}
+
+.lecture p {
+  font-size: 1rem; /* Adjusted font size */
+  margin: 1rem 0;
+}
+
+.lecture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #171717;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  border: 5px solid #e7e7e7;
+  transition: all 0.3s ease;
+  width: 650px; /* Adjust the width as needed */
+  height: 600px; /* Adjust the height as needed */
+}
+.lecture:hover {
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.lecture i {
+  font-size: 3.45rem;
+  margin: 1rem 0;
+}
+
+.lecture1 i,
+.lecture1 h4,
+.lecture1 .cta {
+  color: #42b7ca;
+}
+
+.lecture1:hover {
+  border: 5px solid #42b7ca;
+}
+
+.lecture2 i,
+.lecture2 h4,
+.lecture2 .cta {
+  color: #425fca;
+}
+
+.lecture2:hover {
+  border: 5px solid #425fca;
+}
+
+.lecture3 i,
+.lecture3 h4,
+.lecture3 .cta {
+  color: #9c42ca;
+}
+
+.lecture3:hover {
+  border: 5px solid #9c42ca;
+}
+
+.lecture4 i,
+.lecture4 h4,
+.lecture4 .cta {
+  color: #bb2fc2;
+}
+
+.lecture4:hover {
+  border: 5px solid #bb2fc2;
+}
+
+.lecture .cta span {
+  font-size: 0.6rem;
+}
+
+.lecture .cta {
+  margin-top: auto; /* Move the CTA to the bottom */
+}
+
+@media all and (max-width: 1500px) {
+  .lecture {
+    width: calc(25% - 40px);
+    margin-right: 20px;
+  }
+}
